@@ -1,0 +1,7 @@
+venv/
+*.fdt
+*.fif
+*.npy
+*.pkl
+__pycache__/
+
