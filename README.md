@@ -1,7 +1,10 @@
 # face-recognition-eeg-analysis
-# Face Recognition EEG Analysis
+
+## Face Recognition EEG Analysis
 
 This project analyzes EEG data recorded during a face recognition task. The goal is to compare neural responses to human faces versus scrambled images using Python and MNE-Python.
+
+---
 
 ## Contents
 
@@ -9,6 +12,8 @@ This project analyzes EEG data recorded during a face recognition task. The goal
 - Epoching around stimulus events  
 - ERP analysis and statistical comparison  
 - Visualization of results  
+
+---
 
 ## How to Use
 
@@ -35,13 +40,18 @@ This project analyzes EEG data recorded during a face recognition task. The goal
 4. Run the analysis notebook:
 
     ```bash
-    jupyter notebook code/analysis_notebook.ipynb
+    jupyter notebook face_vs_scrambled_analysis.ipynb
     ```
 
-## Notes
+---
 
-- Large EEG data files are excluded from the repo due to GitHub file size limits.
-- You'll need to manually add your `.fdt` and `.set` files to the `data/` folder before running the notebook.
+## Important Note on Data Files
+
+Due to GitHub file size limits, the `.fdt` file (~211 MB) containing the raw EEG data is **not included** in this repository. To fully reproduce the analysis, you will need to obtain this file separately and place it alongside the `.set` and `.tsv` files in this repository directory.
+
+If you do not have access to the `.fdt` file, please contact the repository owner or refer to the original data source.
+
+---
 
 ## Author
 
