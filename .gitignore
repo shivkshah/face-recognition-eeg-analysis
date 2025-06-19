@@ -6,3 +6,4 @@ venv/
 __pycache__/
 
 sub-002_task-FaceRecognition_eeg.fdt
+.DS_Store
